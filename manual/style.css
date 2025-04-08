@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+body {
+  background: radial-gradient(circle at top left, #0f2027, #203a43, #2c5364);
+  font-family: 'Share Tech Mono', monospace;
+  color: #00ffcc;
+  margin: 0;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.container {
+  max-width: 900px;
+  width: 100%;
+  background-color: rgba(20, 20, 20, 0.85);
+  border: 2px solid #00ffcc;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 0 20px #00ffcc;
+}
+
+h1, h2 {
+  color: #ff00aa;
+  text-align: center;
+  text-shadow: 0 0 10px #ff00aa;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #ff00aa;
+  padding-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li::before {
+  content: "▶ ";
+  color: #ffcc00;
+  margin-right: 6px;
+}
+
+li {
+  margin-bottom: 16px;
+  font-size: 1.1em;
+}
+
+a {
+  color: #ffcc00;
+  text-decoration: none;
+  border-bottom: 1px dashed #ffcc00;
+  transition: 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #00ffcc;
+  border-bottom: 1px solid #00ffcc;
+  text-shadow: 0 0 5px #00ffcc;
+}
+
+p {
+  margin: 15px 0;
+  line-height: 1.6;
+  font-size: 1.1em;
+}
+
+b {
+  color: #ffffff;
+}
+
+i {
+  color: #bbbbbb;
+  font-style: italic;
+}
+
+.nav {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15px 0;
+  text-align: center;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00ffcc inset;
+}
+
+.nav a {
+  margin: 0 20px;
+  font-size: 1.2em;
+  color: #00ffff;
+}
+
+.footer {
+  margin-top: 50px;
+  font-size: 0.9em;
+  color: #999;
+  text-align: center;
+  border-top: 1px dashed #444;
+  padding-top: 15px;
+}
