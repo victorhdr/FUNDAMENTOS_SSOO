@@ -52,56 +52,65 @@ kosmos/
 
 ## 🚀 Cómo Ejecutar KósmOS 
 
-Instalación:
+**Instalación:**
 
 El usuario debe hacer que los scripts sean ejecutables con el comando
-chmod +x shell/*.sh
+`chmod +x shell/*.sh`
 
 El usuario ejecuta bash install.sh para instalar la shell en su directorio ~/my_shell.
 
 El script crea los archivos necesarios y copia el script de la shell allí.
 
-Iniciar la Shell:
+**Iniciar la Shell:**
 
 El usuario ejecuta bash shell.sh para iniciar la shell interactiva.
+`./install.sh`
 
 Dentro de la shell, el usuario puede escribir comandos como install, uninstall, help, datetime, etc.
 
 ## 🗑️ Desinstalación
 
 Para eliminar la shell, el usuario ejecuta bash uninstall.sh, lo que elimina todos los archivos creados durante la instalación.
+`./unistall.sh`
 
 
-## ✅ Comandos personalizados de KósmOS:
-victor@kosmos > orbita              # Lista archivos como planetas
-victor@kosmos > estrella hola.txt   # Crea un archivo
-victor@kosmos > agujero hola.txt    # Elimina un archivo
-victor@kosmos > hipersalto ..       # Cambia de directorio
-victor@kosmos > mision              # Muestra procesos activos
-victor@kosmos > help                # Abre comandos.html con lynx
-victor@kosmos > about               # Abre about.html con lynx
-victor@kosmos > fecha               # Muestra la fecha
-victor@kosmos > salir               # Sale de la shell
+## ✅ Comandos Personalizados de KósmOS
+
+```bash
+victor@kosmos > orbita             # Lista archivos como planetas
+victor@kosmos > estrella hola.txt  # Crea un archivo
+victor@kosmos > agujero hola.txt   # Elimina un archivo
+victor@kosmos > hipersalto ..      # Cambia de directorio
+victor@kosmos > mision             # Muestra procesos activos
+victor@kosmos > help               # Abre comandos.html con lynx
+victor@kosmos > about              # Abre about.html con lynx
+victor@kosmos > fecha              # Muestra la fecha
+victor@kosmos > salir              # Sale de la shell
+```
 
 
 ## 🧬 Comandos relacionados con procesos:
-victor@kosmos > pid                 # Muestra el PID de la shell
+```bash
+victor@kosmos > pid                # Muestra el PID de la shell
 victor@kosmos > lanzar-proceso     # Lanza un proceso que duerme
 victor@kosmos > matar-proceso      # Mata ese proceso lanzado
+```
 
 ## ⚙️ Comandos Comunes de Linux:
+```bash
 victor@kosmos > ls -l
 victor@kosmos > whoami
 victor@kosmos > echo "Hola KósmOS"
 victor@kosmos > mkdir galaxia
+```
 
 
 ## 💡 Funcionalidades
-Interfaz única: Una consola con comandos inspirados en el espacio.
+**Interfaz única:** Una consola con comandos inspirados en el espacio.
 
-Comandos personalizados: Interactúa con tu sistema de archivos y procesos como si estuvieras explorando una galaxia.
+**Comandos personalizados:** Interactúa con tu sistema de archivos y procesos como si estuvieras explorando una galaxia.
 
-Comandos comunes de Linux: También puedes usar comandos estándar de Linux como ls, echo, y mkdir.
+**Comandos comunes de Linux:** También puedes usar comandos estándar de Linux como ls, echo, y mkdir.
 
-Interactúa con archivos HTML: Puedes usar lynx para navegar por la documentación y obtener más información sobre KósmOS directamente desde la terminal.
+**Interactúa con archivos HTML:** Puedes usar lynx para navegar por la documentación y obtener más información sobre KósmOS directamente desde la terminal.
 
