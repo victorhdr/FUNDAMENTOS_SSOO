@@ -7,7 +7,7 @@
 - [🎯 Objetivo del Proyecto](#objetivo-del-proyecto)
 - [📂 Estructura del Proyecto](#estructura-del-proyecto)
 - [🚀 Cómo Ejecutar KósmOS](#cómo-ejecutar-kosmos)
-- [⚙️ Desinstalación](#desinstalación)
+- [🗑️ Desinstalación](#desinstalación)
 - [✅ Comandos personalizados de KósmOS](#comandos-personalizados-kosmos)
 - [🧬 Comandos relacionados con procesos](#comandos-relacionados-con-procesos)
 - [⚙️ Comandos Comunes de Linux](#comandos-comunes-de-linux)
@@ -20,6 +20,8 @@ Crear una shell interactiva funcional que simule un sistema operativo galáctico
 
 
 ## 📂 Estructura del Proyecto
+
+```plaintext
 
 kosmos/
 ├── README.md                 # Documentación del proyecto
@@ -38,13 +40,15 @@ kosmos/
     ├── ahorcado.py           # Minijuego ahorcado 
     └── volar.sh              # Simulación vuelo galáctico
 
-manual/: Contiene los archivos HTML de documentación, como el about.html y comandos.html.
+```
+- **manual/**: Contiene los archivos HTML de documentación, como `about.html` y `comandos.html`.
 
-shell/: Contiene el código de la funcionalidad principal de KósmOS. Aquí se encuentran los scripts shell.sh, install.sh, uninstall.sh y otros.
+- **shell/**: Código principal de la shell galáctica (`shell.sh`, `install.sh`, `uninstall.sh`, etc).
 
-ahorcado.py: Un juego de Ahorcado en Python que puedes jugar directamente desde la terminal.
+- **ahorcado.py**: Juego de Ahorcado en Python que puedes jugar desde la terminal.
 
-volar.sh: Un script de animación para simular un vuelo galáctico.
+- **volar.sh**: Simulación animada de vuelo galáctico desde la consola.
+
 
 ## 🚀 Cómo Ejecutar KósmOS 
 
@@ -63,7 +67,7 @@ El usuario ejecuta bash shell.sh para iniciar la shell interactiva.
 
 Dentro de la shell, el usuario puede escribir comandos como install, uninstall, help, datetime, etc.
 
-## ⚙️ Desinstalación
+## 🗑️ Desinstalación
 
 Para eliminar la shell, el usuario ejecuta bash uninstall.sh, lo que elimina todos los archivos creados durante la instalación.
 
