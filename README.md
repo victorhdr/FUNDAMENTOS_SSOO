@@ -57,14 +57,15 @@ kosmos/
 El usuario debe hacer que los scripts sean ejecutables con el comando
 `chmod +x shell/*.sh`
 
-El usuario ejecuta bash install.sh para instalar la shell en su directorio ~/my_shell.
+El usuario ejecuta bash install.sh para instalar la shell en su directorio ~/my_shell. 
+Para ello ejecutamos: `./install.sh`
 
 El script crea los archivos necesarios y copia el script de la shell allí.
 
 **Iniciar la Shell:**
 
 El usuario ejecuta bash shell.sh para iniciar la shell interactiva.
-`./install.sh`
+Para ello ejecutamos: `./shell.sh`
 
 Dentro de la shell, el usuario puede escribir comandos como install, uninstall, help, datetime, etc.
 
