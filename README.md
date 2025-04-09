@@ -71,8 +71,9 @@ Dentro de la shell, el usuario puede escribir comandos como install, uninstall, 
 
 ## 🗑️ Desinstalación
 
-Para eliminar la shell, el usuario ejecuta bash uninstall.sh, lo que elimina todos los archivos creados durante la instalación.
-`./unistall.sh`
+Para eliminar la shell, el usuario ejecuta bash uninstall.sh, lo que elimina todos los archivos creados durante la instalación. 
+
+Para ello ejecutamos:`./unistall.sh`
 
 
 ## ✅ Comandos Personalizados de KósmOS
