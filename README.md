@@ -1,32 +1,3 @@
-# Shell Interactiva Personalizada
-
-## Instalación
-
-Para instalar la shell, ejecuta el siguiente comando:
-
-```bash
-bash install.sh
-
-
-
-Comandos:
-
-install llama al script install.sh para instalar la shell.
-
-uninstall llama al script uninstall.sh para desinstalar la shell.
-
-help abre la página de ayuda en formato HTML con lynx.
-
-about muestra la sección "Sobre nosotros" de la página de ayuda.
-
-datetime muestra la fecha y hora actual.
-
-Desinstalación:
-
-Para eliminar la shell, el usuario ejecuta bash uninstall.sh, lo que elimina todos los archivos creados durante la instalación.
-
-
-
 # KósmOS Shell Galáctica 🚀
 
 **KósmOS** es una terminal interactiva que emula un sistema operativo galáctico. Ofrece varios comandos útiles y divertidos, con un enfoque en procesos, archivos y juegos. A través de su consola, los usuarios pueden interactuar con comandos comunes de Linux, gestionar procesos, y jugar al "Ahorcado". ¡Embárcate en una misión espacial y explora el espacio de la terminal!
