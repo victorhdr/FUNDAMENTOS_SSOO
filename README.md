@@ -21,8 +21,6 @@ Crear una shell interactiva funcional que simule un sistema operativo galáctico
 
 ## 📂 Estructura del Proyecto
 
-```plaintext
-
 kosmos/
 ├── README.md                 # Documentación del proyecto
 ├── manual                    # Manual de usuario y documentación
