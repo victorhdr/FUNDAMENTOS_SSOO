@@ -7,53 +7,7 @@ Para instalar la shell, ejecuta el siguiente comando:
 ```bash
 bash install.sh
 
-FUNDAMENTOS_SSOO/
-├── manual/                   # Carpeta con los ficheros manuales.
-│   ├── index.html            # Página principal con información sobre KósmOS.
-│   ├── comandos.html         # Página con los comandos de KósmOS.
-│   ├── features.html         # Página con funcionalidades de KósmOS.
-│   ├── contact.html          # Página de contacto de KósmOS.
-│   └── style.css             # Estilos compartidos entre las páginas.
-├── shell/                    # Carpeta para la shell interactiva.
-│   ├── shell.sh              # Script principal de la shell interactiva.
-│   ├── install.sh            # Script de instalación.
-│   ├── uninstall.sh          # Script de desinstalación.
-│   └── helpers.sh            # Funciones auxiliares (por ejemplo, para la fecha, dibujitos, etc.).
-├── README.md                 # Documentación general del proyecto.
 
-
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Comandos Disponibles</title>
-</head>
-<body>
-    <h1>Comandos de la Shell Interactiva</h1>
-    <ul>
-        <li><strong>install</strong>: Instala la shell.</li>
-        <li><strong>uninstall</strong>: Desinstala la shell.</li>
-        <li><strong>help</strong>: Muestra la ayuda de los comandos.</li>
-        <li><strong>about</strong>: Información sobre el creador del proyecto.</li>
-        <li><strong>datetime</strong>: Muestra la fecha y hora actual.</li>
-        <li><strong>dibujito</strong>: Muestra un dibujo ASCII.</li>
-        <li><strong>exit</strong>: Sale de la shell interactiva.</li>
-    </ul>
-</body>
-</html>
-
-Paso a Paso de la Ejecución:
-Instalación:
-
-El usuario ejecuta bash install.sh para instalar la shell en su directorio ~/my_shell.
-
-El script crea los archivos necesarios y copia el script de la shell allí.
-
-Iniciar la Shell:
-
-El usuario ejecuta bash shell.sh para iniciar la shell interactiva.
-
-Dentro de la shell, el usuario puede escribir comandos como install, uninstall, help, datetime, etc.
 
 Comandos:
 
@@ -67,13 +21,85 @@ about muestra la sección "Sobre nosotros" de la página de ayuda.
 
 datetime muestra la fecha y hora actual.
 
-dibujito muestra un dibujo en ASCII.
-
 Desinstalación:
 
 Para eliminar la shell, el usuario ejecuta bash uninstall.sh, lo que elimina todos los archivos creados durante la instalación.
 
-✅ Comandos personalizados de KósmOS:
+
+
+# KósmOS Shell Galáctica 🚀
+
+**KósmOS** es una terminal interactiva que emula un sistema operativo galáctico. Ofrece varios comandos útiles y divertidos, con un enfoque en procesos, archivos y juegos. A través de su consola, los usuarios pueden interactuar con comandos comunes de Linux, gestionar procesos, y jugar al "Ahorcado". ¡Embárcate en una misión espacial y explora el espacio de la terminal!
+
+## Índice
+
+- [🎯 Objetivo del Proyecto](#objetivo-del-proyecto)
+- [📂 Estructura del Proyecto](#estructura-del-proyecto)
+- [🚀 Cómo Ejecutar KósmOS](#cómo-ejecutar-kosmos)
+- [⚙️ Desinstalación](#desinstalación)
+- [✅ Comandos personalizados de KósmOS](#comandos-personalizados-kosmos)
+- [🧬 Comandos relacionados con procesos](#comandos-relacionados-con-procesos)
+- [⚙️ Comandos Comunes de Linux](#comandos-comunes-de-linux)
+- [💡 Funcionalidades](#funcionalidades)
+
+
+## 🎯 Objetivo del Proyecto
+
+Crear una shell interactiva funcional que simule un sistema operativo galáctico, permitiendo a los usuarios ejecutar comandos tradicionales de Linux mientras exploran comandos personalizados y únicos inspirados en el espacio.
+
+
+## 📂 Estructura del Proyecto
+
+```plaintext
+
+kosmos/
+├── README.md                 # Documentación del proyecto
+├── manual                    # Manual de usuario y documentación
+│   ├── index.html            # Página de inicio
+│   ├── about.html            # Información sobre el proyecto
+│   ├── comandos.html         # Comandos disponibles
+│   ├── contact.html
+│   ├── features.html         # Funcionalidades
+│   └── style.css             # Estilos de la interfaz
+└── shell
+    ├── shell.sh              # Script principal de la shell
+    ├── helpers.sh            # Funciones auxiliares
+    ├── install.sh            # Script de instalación            
+    ├── uninstall.sh          # Script de desinstalación
+    ├── ahorcado.py           # Minijuego ahorcado 
+    └── volar.sh              # Simulación vuelo galáctico
+
+manual/: Contiene los archivos HTML de documentación, como el about.html y comandos.html.
+
+shell/: Contiene el código de la funcionalidad principal de KósmOS. Aquí se encuentran los scripts shell.sh, install.sh, uninstall.sh y otros.
+
+ahorcado.py: Un juego de Ahorcado en Python que puedes jugar directamente desde la terminal.
+
+volar.sh: Un script de animación para simular un vuelo galáctico.
+
+## 🚀 Cómo Ejecutar KósmOS 
+
+Instalación:
+
+El usuario debe hacer que los scripts sean ejecutables con el comando
+chmod +x shell/*.sh
+
+El usuario ejecuta bash install.sh para instalar la shell en su directorio ~/my_shell.
+
+El script crea los archivos necesarios y copia el script de la shell allí.
+
+Iniciar la Shell:
+
+El usuario ejecuta bash shell.sh para iniciar la shell interactiva.
+
+Dentro de la shell, el usuario puede escribir comandos como install, uninstall, help, datetime, etc.
+
+## ⚙️ Desinstalación
+
+Para eliminar la shell, el usuario ejecuta bash uninstall.sh, lo que elimina todos los archivos creados durante la instalación.
+
+
+## ✅ Comandos personalizados de KósmOS:
 victor@kosmos > orbita              # Lista archivos como planetas
 victor@kosmos > estrella hola.txt   # Crea un archivo
 victor@kosmos > agujero hola.txt    # Elimina un archivo
@@ -85,21 +111,24 @@ victor@kosmos > fecha               # Muestra la fecha
 victor@kosmos > salir               # Sale de la shell
 
 
-🧬 Comandos relacionados con procesos
+## 🧬 Comandos relacionados con procesos:
 victor@kosmos > pid                 # Muestra el PID de la shell
 victor@kosmos > lanzar-proceso     # Lanza un proceso que duerme
 victor@kosmos > matar-proceso      # Mata ese proceso lanzado
 
-⚙️ Comandos normales de Linux
+## ⚙️ Comandos Comunes de Linux:
 victor@kosmos > ls -l
 victor@kosmos > whoami
 victor@kosmos > echo "Hola KósmOS"
 victor@kosmos > mkdir galaxia
 
 
-KósmOS - Sistema Operativo Galáctico
-Descripción
-KósmOS es una shell interactiva inspirada en el universo, diseñada como un sistema operativo galáctico con un enfoque único. Permite la ejecución de comandos básicos de Linux junto con comandos personalizados que simulan una experiencia cósmica, como si estuvieras en el espacio exterior.
+## 💡 Funcionalidades
+Interfaz única: Una consola con comandos inspirados en el espacio.
 
-Este proyecto simula una consola de comandos interactiva donde puedes realizar tareas comunes como crear y eliminar archivos, explorar procesos activos, y más, todo con un toque galáctico.
+Comandos personalizados: Interactúa con tu sistema de archivos y procesos como si estuvieras explorando una galaxia.
+
+Comandos comunes de Linux: También puedes usar comandos estándar de Linux como ls, echo, y mkdir.
+
+Interactúa con archivos HTML: Puedes usar lynx para navegar por la documentación y obtener más información sobre KósmOS directamente desde la terminal.
 
