@@ -115,4 +115,3 @@ victor@kosmos > mkdir galaxia
 **Comandos comunes de Linux:** También puedes usar comandos estándar de Linux como ls, echo, y mkdir.
 
 **Interactúa con archivos HTML:** Puedes usar lynx para navegar por la documentación y obtener más información sobre KósmOS directamente desde la terminal.
-

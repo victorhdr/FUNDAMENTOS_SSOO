@@ -60,5 +60,26 @@ else
   log "Alias 'kosmos' ya existe en $SHELL_RC"
 fi
 
+# Crear acceso directo en el Escritorio
+log "Creando acceso directo en el escritorio..."
+
+RUTA_UI=$(realpath ./desktop/desktop_ui.py)
+ESCRITORIO="$HOME/Escritorio"
+
+cat > "$ESCRITORIO/KosmosUI.desktop" << EOF
+[Desktop Entry]
+Version=1.0
+Name=KósmOS Desktop UI
+Comment=Interfaz galáctica de tu sistema operativo personalizado
+Exec=python3 $RUTA_UI
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+Categories=Utility;
+EOF
+
+chmod +x "$ESCRITORIO/KosmosUI.desktop"
+log "✅ Acceso directo creado: $ESCRITORIO/KosmosUI.desktop"
+
 log "✅ Instalación completa. Ejecuta: source $SHELL_RC o reinicia tu terminal."
 log "Luego simplemente escribe: kosmos"

@@ -95,6 +95,11 @@ while true; do
     volar)
       bash ./shell/volar.sh
       ;;
+    
+    # Función para lanzar la interfaz gráfica de escritorio de KósmOS
+    launch-desktop-ui)
+      python3 ./desktop/desktop_ui.py
+      ;;
 
     *)
       if command -v "$comando" &> /dev/null; then
