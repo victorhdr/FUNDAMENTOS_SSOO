@@ -134,50 +134,41 @@ victor@kosmos > mkdir galaxia
 
 ---
 
+
 ### 🗂️ Estructura del Proyecto
 
 # PROYECTO GALÁCTICO 🚀
 
-## 1. Archivos principales
+PROYECTO GALÁCTICO
+├── README.md                  # Documentación principal del proyecto
+├── desktop/                  # Interfaz gráfica
+│   ├── desktop_buscador_html_ui.py   # UI con búsqueda de HTML
+│   ├── desktop_ui.py                 # Interfaz gráfica principal
+│   ├── galaxy.png                    # Imagen de fondo
+│   └── icons/                        # Iconos utilizados en la UI
+│       ├── browser.png
+│       ├── exit.png
+│       ├── game.png
+│       ├── html_icon.png
+│       ├── info.png
+│       ├── rocket.png
+│       ├── space.png
+│       └── spaceship.png
+├── shell/                    # Scripts y juegos en consola
+│   ├── ahorcado.py           # Juego del ahorcado
+│   ├── helpers.sh            # Funciones auxiliares
+│   ├── install.sh            # Instalador
+│   ├── shell.sh              # Shell principal
+│   ├── uninstall.sh          # Desinstalador
+│   └── volar.sh              # Simulación de vuelo
+└── manual/                   # Manual HTML
+    ├── index.html            # Página de inicio
+    ├── about.html            # Información general
+    ├── comandos.html         # Lista de comandos
+    ├── contact.html          # Contacto
+    ├── features.html         # Funcionalidades
+    └── style.css             # Estilos del manual
 
-- **1.1** `README.md` → Documentación principal del proyecto
-
-## 2. Desktop (Interfaz Gráfica)
-
-- **2.1** `desktop_buscador_html_ui.py` → UI con búsqueda de HTML  
-- **2.2** `desktop_ui.py` → Interfaz gráfica principal  
-- **2.3** `galaxy.png` → Imagen de fondo para la interfaz  
-
-### 2.4 Iconos
-
-- **2.4.1** `browser.png`  
-- **2.4.2** `exit.png`  
-- **2.4.3** `game.png`  
-- **2.4.4** `html_icon.png`  
-- **2.4.5** `info.png`  
-- **2.4.6** `rocket.png`  
-- **2.4.7** `space.png`  
-- **2.4.8** `spaceship.png`  
-
-## 3. Shell (Scripts y Juegos)
-
-- **3.1** `ahorcado.py` → Juego del ahorcado  
-- **3.2** `helpers.sh` → Funciones auxiliares para los scripts  
-- **3.3** `install.sh` → Instalador de la shell galáctica  
-- **3.4** `shell.sh` → Script principal de la shell  
-- **3.5** `uninstall.sh` → Desinstalador  
-- **3.6** `volar.sh` → Script de simulación de vuelo  
-
-## 4. Manual (Documentación HTML)
-
-- **4.1** `index.html` → Página de inicio del manual  
-- **4.2** `about.html` → Información general del proyecto  
-- **4.3** `comandos.html` → Lista de comandos disponibles  
-- **4.4** `contact.html` → Información de contacto  
-- **4.5** `features.html` → Funcionalidades destacadas  
-- **4.6** `style.css` → Estilos del manual
-
----
 
 ## 🚀 Requisitos
 
