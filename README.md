@@ -186,7 +186,11 @@ Asegúrate de que las carpetas shell/, desktop/ y manual/ estén al mismo nivel.
 
 Coloca el archivo index.html en la carpeta manual/.
 
-Ejecuta el script principal: `python3 desktop/desktop_prueba.py`
+Ejecuta el script principal: 
+
+```bash
+python3 desktop/desktop_prueba.py
+```
 
 
 ## ❗ Notas
