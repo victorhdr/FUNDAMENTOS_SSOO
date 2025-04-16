@@ -121,7 +121,6 @@ victor@kosmos > mkdir galaxia
 
 **KósmOS Desktop UI** es una interfaz gráfica desarrollada en Python con `tkinter` que simula un entorno de escritorio espacial. Permite al usuario interactuar con distintos scripts y recursos de manera intuitiva y visual, con un toque galáctico.
 
----
 
 ## 🌌 Características
 
@@ -132,16 +131,14 @@ victor@kosmos > mkdir galaxia
 - **Abrir Página Web**: Abre un archivo `index.html` localizado en la carpeta `manual/`.
 - **Salir**: Cierra la interfaz.
 
----
-
 
 ### 🗂️ Estructura del Proyecto
 
 ```plaintext
 
 PROYECTO GALÁCTICO
-├── README.md                  # Documentación principal del proyecto
-├── desktop/                  # Interfaz gráfica
+├── README.md                         # Documentación principal del proyecto
+├── desktop/                          # Interfaz gráfica
 │   ├── desktop_buscador_html_ui.py   # UI con búsqueda de HTML
 │   ├── desktop_ui.py                 # Interfaz gráfica principal
 │   ├── galaxy.png                    # Imagen de fondo
