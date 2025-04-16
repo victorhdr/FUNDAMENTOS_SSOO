@@ -1,19 +1,7 @@
 #!/bin/bash
 
-# Usamos UFT-8 para poder leer los emojis
-if [[ "$LANG" != *UTF-8 ]]; then
-  export LANG="es_ES.UTF-8"
-  export LC_ALL="es_ES.UTF-8"
-fi
-
-# Cargar funciones auxiliares
 source "$(dirname "$0")/helpers.sh"
 
-# Variables base
-SCRIPT_DIR="$(dirname "$0")"
-MANUAL_DIR="$SCRIPT_DIR/../manual"
-
-# Banner de bienvenida
 print_banner
 log "Bienvenido a KósmOS, Capitán. Escribe 'help' para ver los comandos galácticos."
 
@@ -62,11 +50,11 @@ while true; do
       ;;
 
     about)
-      lynx "$MANUAL_DIR/about.html"
+      lynx ./manual/about.html
       ;;
 
     help)
-      lynx "$MANUAL_DIR/comandos.html"
+      lynx ./manual/comandos.html
       ;;
 
     fecha)
@@ -78,7 +66,7 @@ while true; do
       ;;
 
     lanzar-proceso)
-      sleep 1000 & 
+      sleep 1000 &
       echo $! > /tmp/proceso_kosmos.pid
       log "🛰️ Proceso hijo lanzado con PID: $(cat /tmp/proceso_kosmos.pid)"
       ;;
@@ -98,16 +86,19 @@ while true; do
       break
       ;;
 
+    # Función para el juego de Ahorcado
     ahorcado)
-      python3 "$SCRIPT_DIR/ahorcado.py"
+      python3 ./shell/ahorcado.py
       ;;
 
+    # Función para la animación de vuelo
     volar)
-      bash "$SCRIPT_DIR/volar.sh"
+      bash ./shell/volar.sh
       ;;
-
+    
+    # Función para lanzar la interfaz gráfica de escritorio de KósmOS
     launch-desktop-ui)
-      python3 "$SCRIPT_DIR/../desktop/desktop_ui.py"
+      python3 ./desktop/desktop_ui.py
       ;;
 
     *)
