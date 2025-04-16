@@ -189,7 +189,7 @@ Coloca el archivo index.html en la carpeta manual/.
 Ejecuta el script principal: 
 
 ```bash
-python3 desktop/desktop_prueba.py
+python3 desktop/desktop_ui.py
 ```
 
 
