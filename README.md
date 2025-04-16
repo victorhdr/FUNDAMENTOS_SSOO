@@ -12,6 +12,7 @@
 - [🧬 Comandos relacionados con procesos](#comandos-relacionados-con-procesos)
 - [⚙️ Comandos Comunes de Linux](#comandos-comunes-de-linux)
 - [💡 Funcionalidades](#funcionalidades)
+- [🪐 KósmOS Desktop UI](#kosmos-desktop-UI)
 
 
 ## 🎯 Objetivo del Proyecto
@@ -115,3 +116,23 @@ victor@kosmos > mkdir galaxia
 **Comandos comunes de Linux:** También puedes usar comandos estándar de Linux como ls, echo, y mkdir.
 
 **Interactúa con archivos HTML:** Puedes usar lynx para navegar por la documentación y obtener más información sobre KósmOS directamente desde la terminal.
+
+# 🪐 KósmOS Desktop UI
+
+**KósmOS Desktop UI** es una interfaz gráfica desarrollada en Python con `tkinter` que simula un entorno de escritorio espacial. Permite al usuario interactuar con distintos scripts y recursos de manera intuitiva y visual, con un toque galáctico.
+
+---
+
+## 🌌 Características
+
+- **Lanzar Shell Galáctica**: Ejecuta un script de shell personalizado.
+- **Jugar al Ahorcado**: Abre un juego clásico implementado en Python.
+- **Iniciar Vuelo Galáctico**: Lanza un script especial que simula un despegue espacial.
+- **Información**: Muestra un mensaje informativo sobre KósmOS.
+- **Abrir Página Web**: Abre un archivo `index.html` localizado en la carpeta `manual/`.
+- **Salir**: Cierra la interfaz.
+
+---
+
+### 🗂️ Estructura del Proyecto
+
