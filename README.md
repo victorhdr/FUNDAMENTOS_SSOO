@@ -139,17 +139,27 @@ victor@kosmos > mkdir galaxia
 PROYECTO GALÁCTICO
 
 1. Archivos principales
+
    1.1 README.md              → Documentación principal del proyecto
 
 2. Desktop (Interfaz Gráfica)
+
    2.1 desktop_buscador_html_ui.py → UI con búsqueda de HTML
+
    2.2 desktop_ui.py               → Interfaz gráfica principal
+
    2.3 galaxy.png                  → Imagen de fondo para la interfaz
+
    2.4 icons/                      → Iconos utilizados en la UI
+
        2.4.1 browser.png
+
        2.4.2 exit.png
+
        2.4.3 game.png
+
        2.4.4 html_icon.png
+       
        2.4.5 info.png
        2.4.6 rocket.png
        2.4.7 space.png
