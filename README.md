@@ -137,7 +137,7 @@ victor@kosmos > mkdir galaxia
 
 ### 🗂️ Estructura del Proyecto
 
-# PROYECTO GALÁCTICO 🚀
+```plaintext
 
 PROYECTO GALÁCTICO
 ├── README.md                  # Documentación principal del proyecto
@@ -169,6 +169,7 @@ PROYECTO GALÁCTICO
     ├── features.html         # Funcionalidades
     └── style.css             # Estilos del manual
 
+```
 
 ## 🚀 Requisitos
 
